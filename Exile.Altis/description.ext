@@ -90,3 +90,7 @@ class CfgRemoteExec
 		jip=0;
     };
 };
+class RscTitles
+{
+	#include "addons\statusBar\statusBar.hpp"
+};
