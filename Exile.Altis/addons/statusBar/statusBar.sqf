@@ -173,11 +173,8 @@ disableSerialization;
 			<t shadow='1' shadowColor='#000000' color='%10'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\players.paa' color='%10'/> %2</t>
 			<t shadow='1' shadowColor='#000000' color='%11'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\health.paa' color='%11'/> %3%1</t> 
 			<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\poptab_ca.paa' color='%10'/> %4</t> 
-			<t shadow='1' shadowColor='#000000' color='%12'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\hunger.paa' color='%12'/> %5%1</t> 
-			<t shadow='1' shadowColor='#000000' color='%13'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\thirst.paa' color='%13'/> %6%1</t> 
 			<t shadow='1' shadowColor='#000000' color='%15'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\exile.paa' color='%10'/> %9</t> 
 			<t shadow='1' shadowColor='#000000' color='%10'>FPS: %7</t>
-			<t shadow='1' shadowColor='#000000' color='%15'><img size='1.0'  shadowColor='#000000' image='addons\statusbar\icons\compass.paa' color='%10'/> %17</t> 
 			<t shadow='1' shadowColor='#000000' color='%10'><img size='1.6'  shadowColor='#000000' image='addons\statusbar\icons\restart.paa' color='%10'/>%18:%19</t>",
 			
 					"%", 

@@ -14,17 +14,17 @@ class osefStatusBarAdmin {
 	class controls {
 		class statusBarText {
 			idc = 55554;
-			x = safezoneX + safezoneW - 1.90;
-			y = safezoneY + safezoneH - 0.063;
-			w = 1.35;
+			x = safezoneX + safezoneW - 1.50;
+			y = safezoneY + safezoneH - 0.060;
+			w = 0.75;
 			h = 0.06;
 			shadow = 2;
-//			colorBackground[] = { 0, 0, 0, 0.5 };  // uncomment and increase 4th number to have a background
+			colorBackground[] = { 0, 0, 0, 0.7 };  // uncomment and increase 4th number to have a background
 			font = "PuristaSemibold";
 			size = 0.04;
 			type = 13;
 			style = 2;
-			text="";
+			text="ARMA 51: Loading Player Stats";
 			class Attributes {
 				align="center";
 				color = "#ffffff";//#5fe60c
@@ -52,7 +52,7 @@ class osefStatusBar {
 			w = 1.3;
 			h = 0.07;
 			shadow = 2;
-//			colorBackground[] = { 0, 0, 0, 0.5 };  // uncomment and increase 4th number to have a background
+     		colorBackground[] = { 0, 0, 0, 0.5 };  // uncomment and increase 4th number to have a background
 			font = "PuristaSemibold";
 			size = 0.04;
 			type = 13;
