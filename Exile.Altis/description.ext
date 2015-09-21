@@ -1,3 +1,6 @@
+#include "infiSTAR_Exile_AdminMenu.hpp"
+#include "CfgRemoteExec.hpp"
+
 // https://community.bistudio.com/wiki/Description.ext#forceRotorLibSimulation
 forceRotorLibSimulation = 2;
 
@@ -76,20 +79,6 @@ allowFunctionsRecompile = 0;
 
 #include "config.cpp"
 
-class CfgRemoteExec
-{
-    class Functions
-    {
-        mode = 1;
-        jip = 0;
-        class ExileServer_system_network_dispatchIncomingMessage     { allowedTargets=2; };
-    };
-    class Commands
-    {
-		mode=0;
-		jip=0;
-    };
-};
 class RscTitles
 {
 	#include "addons\statusBar\statusBar.hpp"
