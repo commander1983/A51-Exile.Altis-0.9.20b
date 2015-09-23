@@ -1569,6 +1569,7 @@ class CfgExileCustomCode
 	ExileClient_object_player_event_onKilled = "fixes\ExileClient_object_player_event_onKilled.sqf";
 	ExileClient_gui_interactionMenu_update = "fixes\ExileClient_gui_interactionMenu_update.sqf";
 	ExileClient_util_world_getNearbyPlayers = "fixes\ExileClient_util_world_getNearbyPlayers.sqf";
+	ExileClient_system_thread_removeTask = "fixes\ExileClient_system_thread_removeTask.sqf";
 
 };
 class CfgExileMusic
