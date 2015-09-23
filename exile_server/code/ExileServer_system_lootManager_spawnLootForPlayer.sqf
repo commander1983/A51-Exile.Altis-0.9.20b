@@ -30,10 +30,7 @@ try
 		throw false;
 	};
 	_playerObject setVariable["ExilePositionAtLastLootSpawnCircle", _playerPosition];	
-	if (_playerPosition call ExileClient_util_world_isTerritoryNearby) then
-	{
-		throw false;
-	};
+
 	_buildings = _playerPosition nearObjects ["House", _spawnRadius];
 	{
 		_building = _x;
@@ -45,7 +42,8 @@ try
 				_buildingPos = getPosATL _building;
 
 				if (!([_buildingPos, _visualThreshold] call ExileServer_util_position_isPlayerNearby) &&
-					!(_buildingPos call ExileClient_util_world_isInTraderZone)) then
+					!(_buildingPos call ExileClient_util_world_isInTraderZone) &&
+					!(_buildingPos call ExileClient_util_world_isInTerritory)) then
 				{
 					_buildingConfig = configFile >> "CfgBuildings" >> _buildingType;
 					_lootTableName = getText(_buildingConfig >> "table");
