@@ -2644,15 +2644,15 @@ class CfgSettings
 
 		class Thunderstorm
 		{
-			fogValue = 0.7;
+			fogValue = 0.6;
 			fogDecay = 0.2;
 			fogBase = 5;
-			overcast = 1;
-			waves = 1;
-			wind = 1;
-			gusts = 1;
-			rain = 1;
-			lightnings = 1;
+			overcast = 0.6;
+			waves = 0.5;
+			wind = 0.6;
+			gusts = 0.7;
+			rain = 0.5;
+			lightnings = 0.6;
 			rainbows = 0.5;
 		};
 	};
@@ -2668,7 +2668,7 @@ class CfgSettings
 		// time in ARMA FORMAT << CONFIG
 		// https://community.bistudio.com/wiki/setDate
 
-		staticTime[] = {2039,10,24,12,0};
+		staticTime[] = {2039,10,24,13,30};
 	};
 
 
