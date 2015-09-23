@@ -12,12 +12,15 @@ _messageName = _this select 0;
 _messageParameters = _this select 1;
 _exludeSessionID = [_this, 2, "-1"] call BIS_fnc_param;
 _publicMessage = [_messageName, _messageParameters];
+_sentToIDs = [];
 {
 	if !((_x select 0) isEqualTo _exludeSessionID) then
 	{
-		_player = _x select 1;
-		_publicMessage remoteExecCall ["ExileClient_system_network_dispatchIncomingMessage",owner _player];
+		_ownerID = owner (_x select 1);
+		if !(_ownerID in _sentToIDs) then
+		{
+			_sentToIDs pushBack _ownerID;
+			_publicMessage remoteExecCall ["ExileClient_system_network_dispatchIncomingMessage", _ownerID];
+		};
 	};
-}
-forEach ExileSessions;
-_publicMessage = nil;
+} forEach ExileSessions;
