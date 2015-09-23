@@ -2682,10 +2682,10 @@ class CfgSettings
 		serverPassword = "";
 
 		// Autolocks server until its ready to accept players
-		useAutoLock = 0;
+		useAutoLock = 1;
 
 		// Rounds the restart time to the nearest real life hour. 1 == enabled. 0 == disabled.
-		restartOnHour = 1;
+		restartOnHour = 0;
 
 		// Server will autoLock at that time before restart (minutes)
 		restartAutoLock = 3;
@@ -2698,7 +2698,7 @@ class CfgSettings
 			{4, 0} = Every 4 hours
 			{1, 30} = Every one and a half hour (who the hell would do this?)
 		*/
-		restartTimer[] = {3, 0};
+		restartTimer[] = {4, 0};
 
 		/*
 			Kicks players before restart to prevent gear loss.
