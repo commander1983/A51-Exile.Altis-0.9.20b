@@ -1571,6 +1571,7 @@ class CfgExileCustomCode
 	ExileClient_util_world_getNearbyPlayers = "fixes\ExileClient_util_world_getNearbyPlayers.sqf";
 	ExileClient_system_thread_removeTask = "fixes\ExileClient_system_thread_removeTask.sqf";
 	ExileClient_object_player_death_startBleedingOut = "fixes\ExileClient_object_player_death_startBleedingOut.sqf";
+	ExileClient_object_player_thread_bleedToDeath = "fixes\ExileClient_object_player_thread_bleedToDeath.sqf";
 
 };
 class CfgExileMusic
