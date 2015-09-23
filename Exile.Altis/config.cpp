@@ -1567,6 +1567,7 @@ class CfgExileCustomCode
 {
 	//ROD FIXES
 	ExileClient_object_player_event_onKilled = "fixes\ExileClient_object_player_event_onKilled.sqf";
+	ExileClient_gui_interactionMenu_update = "fixes\ExileClient_gui_interactionMenu_update.sqf";
 
 };
 class CfgExileMusic
